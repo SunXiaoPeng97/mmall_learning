@@ -36,7 +36,6 @@ public class FileServiceImpl implements IFileService {
             //文件已经上传成功
 
 
-
             FTPUtil.uploadFile(Lists.newArrayList(targetFile));
             //成功上传到FTP服务器
 
